@@ -4,28 +4,29 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="tamil" class="com.tns.dependencyInjection.Student">
-	 <property name="sid" value="12"/>
-	 <property name="sname" value="ThamizhSelvan"/>
-	 <property name="city" value="Puducherry"/>
-</bean>
+<bean id="tamil" class="com.tnsif.springcore_dependencyInjection.Student">
+        <property name="sid" value="12"/>
+        <property name="sname" value="ThamizhSelvan"/>
+        <property name="city" value="Puducherry"/>
+    </bean>
 
-<bean id="reventh" class="com.tns.dependencyInjection.Student">
-	 <property name="sid" value="13"/>
-	 <property name="sname" value="Reventh K"/>
-	 <property name="city" value="Villupuram"/>
-</bean>
+    <bean id="reventh" class="com.tnsif.springcore_dependencyInjection.Student">
+        <property name="sid" value="13"/>
+        <property name="sname" value="Reventh K"/>
+        <property name="city" value="Villupuram"/>
+    </bean>
 
-<bean id="sakthi" class="com.tns.dependencyInjection.Student1">
-	 <constructor-arg name="sid" value="14"/>
-	 <constructor-arg name="sname" value="Sakthi"/>
-	 <constructor-arg name="city" value="Chennai"/>
-</bean>
+    <bean id="sakthi" class="com.tnsif.springcore_dependencyInjection.Student1">
+        <constructor-arg name="sid" value="14"/>
+        <constructor-arg name="sname" value="Sakthi"/>
+        <constructor-arg name="city" value="Chennai"/>
+    </bean>
 
-<bean id="hema" class="com.tns.dependencyInjection.Student1">
-	 <constructor-arg name="sid" value="14"/>
-	 <constructor-arg name="sname" value="Hema"/>
-</bean>
+    <bean id="hema" class="com.tnsif.springcore_dependencyInjection.Student1">
+        <constructor-arg name="sid" value="15"/>
+        <constructor-arg name="sname" value="Hema"/>
+        <constructor-arg name="city" value="Madurai"/>
+    </bean>
 
 
 
