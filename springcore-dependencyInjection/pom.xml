@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tnsif</groupId>
-  <artifactId>springdemo</artifactId>
+  <artifactId>springcore-dependencyInjection</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>springdemo</name>
+  <name>springcore-dependencyInjection</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -18,7 +18,6 @@
 
   <dependencyManagement>
     <dependencies>
-    
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
@@ -31,7 +30,7 @@
 
   <dependencies>
   
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
 		<dependency>
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-core</artifactId>
